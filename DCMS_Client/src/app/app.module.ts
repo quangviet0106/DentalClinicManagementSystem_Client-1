@@ -15,6 +15,7 @@ import { DoctorComponent } from './pages/doctor/doctor.component';
 import { NurseComponent } from './pages/nurse/nurse.component';
 import { PatientComponent } from './pages/patient/patient.component';
 import { AuthComponent } from './pages/auth/auth.component';
+import { ReceptionistAppointmentListComponent } from './pages/receptionist/receptionist-appointment-list/receptionist-appointment-list.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -27,6 +28,7 @@ import { AuthComponent } from './pages/auth/auth.component';
     NurseComponent,
     PatientComponent,
     AuthComponent,
+    ReceptionistAppointmentListComponent,
   ],
   imports: [
     BrowserModule,
